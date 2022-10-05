@@ -5,5 +5,8 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
 }
 header {
-  background: lightblue;
+  display: flex;
+}
+ul {
+  display: flex;
 }
