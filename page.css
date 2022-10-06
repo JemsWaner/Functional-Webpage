@@ -7,11 +7,6 @@ html,
 body {
   height: 100%;
 }
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -49,6 +44,9 @@ h1 {
 section p {
   margin: 20px 0;
 }
+section {
+  padding-bottom: 36px;
+}
 .button-flex {
   display: flex;
   gap: 16px;
@@ -65,21 +63,27 @@ ol {
 /************Cards style**********/
 .gray-back {
   background: hsl(0, 0%, 94%);
+}
+.center {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.center button {
+  padding: 5px;
 }
 .cards {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
 .cards div {
-  flex: 1;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.center {
-  align-self: flex-end;
+  flex: 1 1 250px;
+  max-width: 400px;
+  min-height: 300px;
+  border-radius: 16px;
+  background: white;
 }
