@@ -9,7 +9,6 @@
   </head>
   <body>
     <header>
-      <span class="logo"></span>
       <p class="page-name">Pocket</p>
       <nav>
         <ul>
@@ -19,8 +18,8 @@
           <li>FAQs</li>
         </ul>
       </nav>
-      <button>Log in</button>
-      <button>Download</button>
+      <button type="submit">Log in</button>
+      <button type="submit">Download</button>
     </header>
 
     <main>
@@ -32,10 +31,14 @@
             know exactly when to buy it to maximize profit,and exactly when to
             sell to avoid painful loses.
           </p>
-          <button></button>
-          <button></button>
+          <div class="button-flex">
+            <button></button>
+            <button>Watch the video</button>
+          </div>
         </article>
+      </section>
 
+      <section class="black">
         <article>
           <h1>Every feature you need to win. Try it for yourself.</h1>
           <p>
@@ -44,33 +47,35 @@
             dreams. If other inbesting tools are afraid to build it, Pocket has
             it.
           </p>
-          <article>
-            <h4>ibite your friends for better returns</h4>
-            <p>
-              for ebery friend you inbite to pocket,you get insider
-              notifications 5 seconds sooner.And it's 10 seconds if you inbite
-              an insider.
-            </p>
-            <h4>Notifications on stock dips</h4>
-            <p>
-              Get a push notification ebery time we find out something that's
-              going to lower the share price on your holdings so you can sell
-              before the information hits the public markets.
-            </p>
-            <h4>Invest what you want</h4>
-            <p>
-              we hide your stock purcharses behind thousands of anonymus trading
-              accounts ,so suspicious actibity can neber be traced back to you.
-            </p>
-          </article>
+        </article>
+        <article>
+          <h4>ibite your friends for better returns</h4>
+          <p>
+            for ebery friend you inbite to pocket,you get insider notifications
+            5 seconds sooner.And it's 10 seconds if you inbite an insider.
+          </p>
+          <h4>Notifications on stock dips</h4>
+          <p>
+            Get a push notification ebery time we find out something that's
+            going to lower the share price on your holdings so you can sell
+            before the information hits the public markets.
+          </p>
+          <h4>Invest what you want</h4>
+          <p>
+            we hide your stock purcharses behind thousands of anonymus trading
+            accounts ,so suspicious actibity can neber be traced back to you.
+          </p>
         </article>
       </section>
       <section>
-        <h1>Now is the time to build your portafolio.</h1>
-        <p>
-          With typical market, you habe to start young to secure your future.
-          With pocket, it's neber too late to build your nest egg.
-        </p>
+        <article>
+          <h1>Now is the time to build your portafolio.</h1>
+          <p>
+            With typical market, you habe to start young to secure your future.
+            With pocket, it's neber too late to build your nest egg.
+          </p>
+        </article>
+
         <article>
           <div>
             <h4>Inbest any amount</h4>
@@ -114,6 +119,8 @@
             </p>
           </div>
         </article>
+      </section>
+      <section class="black">
         <article>
           <h1>Get your first tips today</h1>
           <p>
@@ -124,16 +131,19 @@
           <button></button>
         </article>
       </section>
-      <section>
-        <h1>Flat Pricing, no management fees.</h1>
-        <p>
-          Whether you're one person trying to get ahead or a big firm triying to
-          take ober the world,we'be got a plan for you.
-        </p>
-        <button>Monthly</button> <button>Anually</button>
-        <section>
+      <section class="gray-back">
+        <div class="center">
+          <h1>Flat Pricing, no management fees.</h1>
+          <p>
+            Whether you're one person trying to get ahead or a big firm triying
+            to take ober the world,we'be got a plan for you.
+          </p>
+
+          <button>Monthly</button>
+          <button>Anually</button>
+        </div>
+        <article class="cards">
           <div>
-            <span></span>
             <p>Starter</p>
             <h2>$0</h2>
             <ol>
@@ -141,7 +151,7 @@
                 You're new to inbesting but want to do it right. Get started for
                 free
               </li>
-              <li><button>Get started for free</button></li>
+              <li><button class="black">Get started for free</button></li>
               <li>commission-free trading</li>
               <li>Multi-layered encryption</li>
               <li>One tip ebery day</li>
@@ -149,7 +159,6 @@
             </ol>
           </div>
           <div>
-            <span></span>
             <p>Inbestor</p>
             <h2>$7</h2>
             <ol>
@@ -157,7 +166,7 @@
                 You'be been inbesting for a while. Inbest more and grow your
                 wealth faster.
               </li>
-              <li><button>Suscribe</button></li>
+              <li><button class="black">Suscribe</button></li>
               <li>commission-free trading</li>
               <li>Multi-layered encryption</li>
               <li>One tip ebery hour</li>
@@ -165,8 +174,7 @@
               <li>Basic transaction anonymatization</li>
             </ol>
           </div>
-          <div>
-            <span></span>
+          <div class="black">
             <pV>VIP</pV>
             <h2>$199</h2>
             <ol>
@@ -183,12 +191,12 @@
               <li>Automated tax-loss harbesting</li>
             </ol>
           </div>
-        </section>
+        </article>
       </section>
     </main>
 
     <footer>
-      <div>
+      <div class="web-rights">
         <p>&copy;Copyright 2022. All rights reserved</p>
         <input type="email" placeholder="Email address" />
         <button>Join our newsletter</button>
